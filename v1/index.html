@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Current Issues in the World</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Victor+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sono:wght@700&family=Victor+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container"></div>
+    <header class="header">
+      <div class="logo">
+        <img src="logo.png" height="88px" width="88px" alt="Globe Logo" />
+        <h1>Current Issues In The World</h1>
+      </div>
+      <button class="btn btn-large btn-open">Share a fact</button>
+    </header>
+
+    <form class="fact-form hidden">
+      <input type="text" placeholder="Country Awareness:" />
+      <!--neutral text element-->
+      <span>200</span>
+      <input type="text" placeholder="Trust Worthy Source:" />
+      <select>
+        <!--drop down menu-->
+        <option value="">Choose Continent</option>
+        <option value="Europe">Europe</option>
+        <option value="Asia">Asia</option>
+        <option value="Africa">Africa</option>
+        <option value="NA">North America</option>
+        <option value="SA">South America</option>
+        <option value="Australia">Australia</option>
+        <option value="Antarctica">Antarctica</option>
+      </select>
+      <button class="btn btn-large">Submit</button>
+    </form>
+
+    <main class="main">
+      <aside>
+        <!--side part for the buttons-->
+        <ul>
+          <li class="category">
+            <button class="btn btn-all-categories">All</button>
+          </li>
+          <li class="category">
+            <button
+              class="btn btn-category"
+              style="background-color: rgb(59, 247, 59)"
+            >
+              Europe
+            </button>
+          </li>
+          <li class="category">
+            <button
+              class="btn btn-category"
+              style="background-color: rgb(255, 182, 45)"
+            >
+              Asia
+            </button>
+          </li>
+          <li class="category">
+            <button
+              class="btn btn-category"
+              style="background-color: rgb(249, 230, 31)"
+            >
+              Africa
+            </button>
+          </li>
+          <li class="category">
+            <button
+              class="btn btn-category"
+              style="background-color: rgb(111, 243, 255)"
+            >
+              North America
+            </button>
+          </li>
+          <li class="category">
+            <button
+              class="btn btn-category"
+              style="background-color: rgb(241, 31, 31)"
+            >
+              South America
+            </button>
+          </li>
+          <li class="category">
+            <button
+              class="btn btn-category"
+              style="background-color: rgb(81, 40, 40)"
+            >
+              Australia
+            </button>
+          </li>
+          <li class="category">
+            <button
+              class="btn btn-category"
+              style="background-color: rgb(174, 173, 173)"
+            >
+              Antarctica
+            </button>
+          </li>
+        </ul>
+      </aside>
+
+      <section>
+        <ul class="facts-list">
+          <li class="fact">
+            <p>
+              On 24 February 2022, Russia invaded Ukraine in an escalation of
+              the Russo-Ukrainian War which began in 2014. The invasion has
+              killed tens of thousands on both sides. Russian forces are
+              responsible for mass civilian casualties and for torturing
+              captured Ukrainian soldiers.
+              <a
+                class="source"
+                href="https://www.aljazeera.com/tag/ukraine-russia-crisis/"
+                target="_blank"
+                >(More Information)</a
+              >
+            </p>
+            <span class="tag" style="background-color: rgb(59, 247, 59)"
+              >Europe</span
+            >
+          </li>
+          <li class="fact">
+            <p>
+              England facing A cost of living crisis typically refers to a
+              situation where the expenses of basic necessities, such as
+              housing, food, energy, and transportation, rise significantly
+              compared to people's incomes, resulting in financial difficulties
+              for many households.
+              <a
+                class="source"
+                href="https://www.instituteforgovernment.org.uk/explainer/cost-living-crisis"
+                target="_blank"
+                >(More Information)</a
+              >
+            </p>
+            <span class="tag" style="background-color: rgb(59, 247, 59)"
+              >Europe</span
+            >
+          </li>
+          <li class="fact">
+            <p>
+              Antarctica is one of the regions most impacted by global warming.
+              The continent has been experiencing rising temperatures, melting
+              ice sheets, and diminishing sea ice, which can have far-reaching
+              consequences for global sea levels and ecosystems.
+              <a
+                class="source"
+                href="https://discoveringantarctica.org.uk/climate-change/impacts-of-climate-change/"
+                target="_blank"
+                >(More Information)</a
+              >
+            </p>
+            <span class="tag" style="background-color: rgb(174, 173, 173)"
+              >Antartica</span
+            >
+          </li>
+          <li class="fact">
+            <p>
+              Concerns have been raised about internet censorship and
+              surveillance in India, affecting freedom of expression and privacy
+              <a
+                class="source"
+                href="https://www.hrw.org/news/2023/06/13/india-internet-shutdowns-hurt-vulnerable-communities"
+                target="_blank"
+                >(More Information)</a
+              >
+            </p>
+            <span class="tag" style="background-color: rgb(255, 182, 45)"
+              >Asia</span
+            >
+          </li>
+          <li class="fact">
+            <p>
+              Corruption has been a persistent issue in Nigeria, affecting
+              governance, public services, and economic development.
+              <a
+                class="source"
+                href="https://www.cfr.org/article/nigerias-all-too-familiar-corruption-ranking-begs-broader-questions-around-normative"
+                target="_blank"
+                >(More Information)</a
+              >
+            </p>
+            <span class="tag" style="background-color: rgb(249, 230, 31)"
+              >Africa</span
+            >
+          </li>
+          <li class="fact">
+            <p>
+              Venezuela has experienced one of the largest migration crises in
+              the region, with millions of people leaving the country seeking
+              better opportunities and living conditions abroad.
+              <a
+                class="source"
+                href="https://www.economist.com/the-americas/2019/09/12/millions-of-refugees-from-venezuela-are-straining-neighbours-hospitality?utm_medium=cpc.adword.pd&amp;utm_source=google&amp;ppccampaignID=18156330227&amp;ppcadID=&amp;utm_campaign=a.22brand_pmax&amp;utm_content=conversion.direct-response.anonymous&amp;gclid=Cj0KCQjw2qKmBhCfARIsAFy8buKDoVgZYog57Oy9Py4oEwbgY8gO1wF8ou7_PJEteuRRXIVOdUopqCoaAjscEALw_wcB&amp;gclsrc=aw.ds"
+                target="_blank"
+                >(More Information)</a
+              >
+            </p>
+            <span class="tag" style="background-color: rgb(241, 31, 31)"
+              >South America</span
+            >
+          </li>
+          <li class="fact">
+            <p>
+              Protests and movements advocating for racial and social justice
+              have taken place across North America, addressing issues of
+              systemic racism and inequality.
+              <a
+                class="source"
+                href="https://www.britannica.com/event/American-civil-rights-movement"
+                target="_blank"
+                >(More Information)</a
+              >
+            </p>
+            <span class="tag" style="background-color: rgb(111, 243, 255)"
+              >North America</span
+            >
+          </li>
+          <li class="fact">
+            <p>
+              A wildfire has triggered a series of massive explosions at an air
+              force ammunition depot in central Greece.
+              <a
+                class="source"
+                href="https://www.independent.co.uk/news/world/europe/fire-in-greece-now-scottish-cyprus-wildfires-b2383434.html"
+                target="_blank"
+                >(More Information)</a
+              >
+            </p>
+            <span class="tag" style="background-color: rgb(59, 247, 59)"
+              >Europe</span
+            >
+          </li>
+          <li class="fact">
+            <p>
+              Indigenous Australians have been advocating for their rights, land
+              rights, and recognition of their cultural heritage. Reconciliation
+              efforts between Indigenous and non-Indigenous communities continue
+              to be a significant focus.
+              <a
+                class="source"
+                href="https://bth.humanrights.gov.au/healing/reconciliation"
+                target="_blank"
+                >(More Information)</a
+              >
+            </p>
+            <span class="tag" style="background-color: rgb(91, 90, 40)"
+              >Australia</span
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
